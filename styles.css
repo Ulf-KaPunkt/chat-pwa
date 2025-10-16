@@ -14,3 +14,17 @@ p {
   color: #bbb;
   line-height: 1.4;
 }
+
+/* --- Chat UI --- */
+.app {max-width: 920px; margin: 0 auto; padding: 16px;}
+.app-header {position: sticky; top: 0; z-index: 2; padding: 12px 0; background: #0f0f10;}
+.app-title {font-size: 20px; font-weight: 700;}
+.chat {display: grid; grid-template-rows: 1fr auto; gap: 12px; height: calc(100dvh - 120px);}
+.chat-log {display: flex; flex-direction: column; gap: 10px; overflow: auto; padding-right: 6px;}
+.msg {max-width: 80%; padding: 10px 12px; border-radius: 12px;}
+.msg.user {align-self: flex-end; background: #1e1e22;}
+.msg.bot  {align-self: flex-start; background: #151518;}
+.input-row {display: grid; grid-template-columns: 1fr auto; gap: 8px; padding: 8px; border: 1px solid #222; border-radius: 14px;}
+.input-row input {background: transparent; border: 0; outline: none; color: #e8e8e8; font-size: 16px;}
+.btn {background: #ffc800; color: #111; border: 0; padding: 10px 14px; border-radius: 10px; font-weight: 600; cursor: pointer;}
+.btn:disabled {opacity: .6; cursor: default;}
