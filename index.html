@@ -2,15 +2,22 @@
 <html lang="de">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>PWA Chat – Grundgerüst</title>
-  <link rel="manifest" href="manifest.json">
-  <meta name="theme-color" content="#111111">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PWA Chat</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#111111" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:," />
 </head>
 <body>
   <h1>PWA Chat</h1>
   <p>Grundgerüst steht. (Nur eine HTML-Datei, noch keine PWA-Funktionen.)</p>
-  <script>if("serviceWorker" in navigator){navigator.serviceWorker.register("./service-worker.js");}</script>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      navigator.serviceWorker.register("./service-worker.js");
+    }
+  </script>
 </body>
 </html>
