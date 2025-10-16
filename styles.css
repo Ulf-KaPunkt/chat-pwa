@@ -1,0 +1,16 @@
+body {
+  background: #0f0f10;
+  color: #f2f2f2;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ffd700;
+}
+
+p {
+  color: #bbb;
+  line-height: 1.4;
+}
